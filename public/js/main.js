@@ -24227,18 +24227,6 @@ var Parent = require('./components/Parent.jsx');
 
 var Routes = require('./Routes.jsx');
 
-var App = React.createClass({
-	displayName: 'App',
-
-	render: function () {
-		return React.createElement(
-			'div',
-			null,
-			React.createElement(Parent, null)
-		);
-	}
-});
-
 ReactDOM.render(Routes, document.getElementById("app"));
 
 },{"./Routes.jsx":223,"./components/Parent.jsx":229,"react":221,"react-dom":1}],225:[function(require,module,exports){
